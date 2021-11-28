@@ -3,13 +3,6 @@
   --light-color: #ffffff;
   --secondary-color: #cecbcb;
 
-
-
-  --secondary-color-hover: #FFFFFF;
-  --primary-color: #E34140;
-  --cover1: #EEEFFE;
-  --links: #1472D0;
-  --cver2: #FBFBFD;
 }
 .all{
   max-width: 100vw;
@@ -106,6 +99,7 @@
 .searchMenu:hover{
   background: #DADADA;
 }
+
 .searchMenu:active{
   width: 4.5%;
   height: 110%;
@@ -142,4 +136,11 @@
   height: 110%;
   margin-top: 0.7vh;
   border:3px solid #f68c00;
+}
+.buttomSearch span{
+  height: 100%;
+  width: 100%;
+  float:left;
+  background: url(../image/asset\ 0.png);
+  background-position: -3px 1066px;
 }
